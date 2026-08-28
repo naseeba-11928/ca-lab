@@ -17,6 +17,9 @@ main:
     add x7,x5,x6 #e=(a-d)+(b-a)
     add x7,x7,x3 #e=(a-d)+(b-a)+d
 
+    add x8, x1, x2    # x8=a+b
+    add x8, x8, x3    # x8=a+b+d
+    add x7, x8, x7    # e=a+b+d+e
 
 end:
     j end

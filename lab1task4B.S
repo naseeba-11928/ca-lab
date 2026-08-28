@@ -26,8 +26,7 @@ main:
     lb x4, 3(x1)       #a[3]
     lh  x5, 6(x2)       #b[3]
     add x6, x4, x5
-
-
+    sw x6, 12(x3)
 
 end:
     j end
